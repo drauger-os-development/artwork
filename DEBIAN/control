@@ -1,0 +1,9 @@
+Package: drauger-wallpaper
+Version: 0.1.1
+Maintainer: Thomas Castleman <contact@draugeros.org>
+Section: metapackages
+Architecture: all
+Priority: optional
+Description: Wallpapers for Drauger OS
+ Wallpapers for Drauger OS, some of which are provided by the community.
+ Others where made in-house, others still taken from NASA website.
