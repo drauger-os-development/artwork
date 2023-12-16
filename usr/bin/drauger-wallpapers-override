@@ -21,6 +21,14 @@
 #  MA 02110-1301, USA.
 #  
 #
+if [ "$UID" == "0" ]; then
+	builtin echo "You must be root to run this script."
+	exit
+fi
+if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
+	builtin echo -e "drauger-wallpaper, Version $(dpkg -l drauger-wallpaper | grep '^ii' | awk '{print $3}')\n\nThis script provides a simple way for users to reset symlinks used to show the Drauger OS default wallpaper, if it gets overridden.\n\n-h, --help\t\tShow this help dialog and exit"
+	exit
+fi
 settings=$(</etc/drauger-wallpapers/settings.conf)
 settings=${settings//=/ }
 def_wall=$(builtin echo "$settings" | grep "default_wallpaper" | awk '{print $2}')
