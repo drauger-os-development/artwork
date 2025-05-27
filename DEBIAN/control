@@ -1,6 +1,6 @@
 Package: drauger-wallpaper
-Version: 0.2.1
-Maintainer: Thomas Castleman <contact@draugeros.org>
+Version: 0.2.2
+Maintainer: Thomas Castleman <batcastle@draugeros.org>
 Section: metapackages
 Architecture: all
 Priority: optional
