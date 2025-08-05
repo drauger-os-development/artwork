@@ -1,9 +1,9 @@
 Package: drauger-wallpaper
-Version: 0.2.2
+Version: 0.2.3
 Maintainer: Thomas Castleman <batcastle@draugeros.org>
 Section: metapackages
 Architecture: all
 Priority: optional
 Description: Wallpapers for Drauger OS
  Wallpapers for Drauger OS, some of which are provided by the community.
- Others where made in-house, others still taken from NASA website.
+ Others were made in-house, others still taken from NASA website.
