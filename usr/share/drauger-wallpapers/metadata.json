@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Name": "Drauger OS",
+        "Id": "Drauger OS",
+        "License": "GPLv2+",
+        "Authors": [
+            {
+                "Name": "Thomas Castleman",
+                "Email": "batcastle@draugeros.org"
+            }
+        ]
+    }
+}
