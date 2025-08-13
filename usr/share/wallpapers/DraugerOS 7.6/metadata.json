@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Name": "DraugerOS 7.6",
+        "Id": "DraugerOS 7.6",
+        "License": "GPLv2+",
+        "Authors": [
+            {
+                "Name": "Thomas Castleman",
+                "Email": "batcastle@draugeros.org"
+            }
+        ]
+    }
+}
